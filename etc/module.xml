@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Fix the issue with caching top menu
+ *
+ * @package Aws\TopMenuCacheFix
+ * @author Fred Orosko Dias <fred@absoluteweb.com>
+ * @copyright Copyright (c) 2019 Absolute Web Services Inc. (https://www.absolutewebservices.com/)
+ * @license https://opensource.org/licenses/OSL-3.0.php Open Software License 3.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Aws_TopMenuCacheFix" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Theme"/>
+            <module name="Magento_Catalog"/>
+        </sequence>
+    </module>
+</config>
