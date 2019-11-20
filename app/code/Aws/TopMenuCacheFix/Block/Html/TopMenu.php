@@ -8,7 +8,7 @@
  * @license https://opensource.org/licenses/OSL-3.0.php Open Software License 3.0
  */
 
-namespace Aws\TopMenuCache\Fix\Block\Html;
+namespace Aws\TopMenuCacheFix\Block\Html;
 
 use Magento\Catalog\Model\Category;
 use Magento\Catalog\Model\Layer\Resolver;
